@@ -1,0 +1,12 @@
+# Build folders
+build/
+build*/
+_build*/
+out/
+out*/
+_out*/
+.pio/
+
+# IDEs
+.vs/
+.vscode/
