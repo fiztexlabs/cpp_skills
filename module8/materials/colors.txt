@@ -1,0 +1,7 @@
+White
+Blue
+Purple
+Yellow
+Black
+Green
+Red
