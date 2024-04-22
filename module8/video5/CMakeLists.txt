@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(materials
+project(video5
     VERSION 0.0.1
-    DESCRIPTION "Skillbox mod8 materials"
+    DESCRIPTION "Events and signals"
     LANGUAGES CXX)
 
 
@@ -21,9 +21,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(sources 
-   ./main.cpp
-   ./timer.h
-   ./timer.cpp
+   ./src/window.h
+   ./src/window.cpp
+   ./src/main.cpp
 )
 add_executable(test WIN32 ${sources})
 

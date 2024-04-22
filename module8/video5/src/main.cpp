@@ -1,15 +1,15 @@
 #include <QApplication>
-#include "timer.h"
+#include "window.h"
  
 int main(int argc, char *argv[]) {
     
   QApplication app(argc, argv);  
     
-  Timer window;
+  Window mywindow;
   
-  window.resize(250, 150);
-  window.setWindowTitle("Timer");
-  window.show();
+  mywindow.resize(250, 150);
+  mywindow.setWindowTitle("Click");
+  mywindow.show();
  
   return app.exec();
 }
